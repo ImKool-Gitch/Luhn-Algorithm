@@ -40,5 +40,5 @@ bool validate(long digits) {
       }
   }
   if (sum % 10 != 0) return false;
-  else return true;
+  return true;
 }
